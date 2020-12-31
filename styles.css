@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Dancing Script', cursive;
+    src: url(https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap);
+}
+
+body {
+    font-family: Dancing Script;
+    font-size: 20px;
+    background-image: url("https://wallpaperaccess.com/full/92699.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.postcard {
+    background: whitesmoke; width: 600px; height: 400px; margin: auto;
+    position: absolute; top: 50%; left: 30%; transform: translate(-50%, -70%);
+    padding: 15px;
+}
+.postcard h1 {margin: 0; }
+
+.postcard-header {
+    height: 80px;
+    margin-bottom: 10px;
+}
+.postcard-header img {
+    float: right;
+}
+
+.postcard-title {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+}
+
+.postcard-body {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.left-part {
+    float: left; width: 50%;
+}
+.right-part {
+    float: right;
+    margin-top: 30px;
+}
+
+.postcard-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+   }
+
+.send-btn {
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: lightgray;
+    text-decoration: none;
+    
+}
+
+.send-btn:hover {
+    background-color: grey;
+}
+
+.input-group-form {
+    margin-top: 3px;
+}
